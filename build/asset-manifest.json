@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SalesAssistant.2/static/css/main.e3ca5eb5.css",
+    "main.js": "/SalesAssistant.2/static/js/main.93a02d66.js",
+    "static/js/453.85e69891.chunk.js": "/SalesAssistant.2/static/js/453.85e69891.chunk.js",
+    "index.html": "/SalesAssistant.2/index.html",
+    "main.e3ca5eb5.css.map": "/SalesAssistant.2/static/css/main.e3ca5eb5.css.map",
+    "main.93a02d66.js.map": "/SalesAssistant.2/static/js/main.93a02d66.js.map",
+    "453.85e69891.chunk.js.map": "/SalesAssistant.2/static/js/453.85e69891.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3ca5eb5.css",
+    "static/js/main.93a02d66.js"
+  ]
+}
