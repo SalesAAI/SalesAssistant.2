@@ -10,6 +10,7 @@
     "@mui/lab": "^5.0.0-alpha.129",
     "@mui/material": "^5.13.0",
     "axios": "^1.4.0",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.1",
@@ -18,6 +19,7 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@types/node": "^16.18.31",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
