@@ -32,7 +32,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build --git git -b gh-pages -m 'Deploy React app to GitHub Pages' --dotfiles true --repo https://github.com/SalesAAI/SalesAssistant.2.git"
   },
   "eslintConfig": {
     "extends": [

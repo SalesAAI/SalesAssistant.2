@@ -1,10 +1,14 @@
-export type DifficultyLevel = 'beginner' | 'advanced';
-
 export interface ScenarioType {
   id: string;
   title: string;
   description: string;
   category: string;
+}
+
+export interface DifficultyLevel {
+  id: string;
+  name: string;
+  description: string;
 }
 
 export interface Message {
@@ -21,10 +25,18 @@ export interface PracticeModeProps {
 }
 
 export interface PracticeSessionResponse {
-  sessionId: string;
-  initialResponse: string;
+  id: string;
+  scenarioId: string;
+  difficultyId: string;
+  status: 'active' | 'completed';
 }
 
 export interface MessageResponse {
-  response: string;
+  message: string;
+  feedback?: string;
+  metrics?: {
+    confidence: number;
+    effectiveness: number;
+    [key: string]: number;
+  };
 }
